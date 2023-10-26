@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://04ucv52w4xhq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n4c7x"]
+size = Vector2(1164, 20)
+
+[node name="Wall" type="RigidBody2D"]
+freeze = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_n4c7x")
+debug_color = Color(0, 0.6, 0.701961, 0.419608)
