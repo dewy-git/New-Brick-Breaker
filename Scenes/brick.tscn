@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://dp7fqxlnar4n5"]
+
+[ext_resource type="Texture2D" uid="uid://d06ws4g0pu0q0" path="res://Assets/Brick-Blue.png" id="1_aljai"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_v2r00"]
+size = Vector2(398, 98)
+
+[node name="Brick" type="RigidBody2D"]
+gravity_scale = 2.66454e-15
+lock_rotation = true
+freeze = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_aljai")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_v2r00")
