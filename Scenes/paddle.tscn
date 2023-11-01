@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://dgo41t4ifjtrk"]
 
-[ext_resource type="Script" path="res://paddle.gd" id="1_4w147"]
 [ext_resource type="Texture2D" uid="uid://ckbmlemetbql1" path="res://Assets/Paddle.png" id="1_h5t5f"]
+[ext_resource type="Script" path="res://Scripts/paddle.gd" id="1_w8ix0"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0j1bi"]
 size = Vector2(125.5, 16)
@@ -9,7 +9,7 @@ size = Vector2(125.5, 16)
 [node name="Paddle" type="RigidBody2D"]
 position = Vector2(2.08165e-12, 283)
 gravity_scale = 2.66454e-15
-script = ExtResource("1_4w147")
+script = ExtResource("1_w8ix0")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 scale = Vector2(0.25, 0.25)
