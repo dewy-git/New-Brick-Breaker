@@ -1,11 +1,9 @@
-res://Scenes/DeathZone.tscn
-res://Scenes/paddle.tscn
-res://Scenes/brick.tscn
-res://Scripts/brick.gd
-res://Scenes/main.tscn
-res://Scripts/brick_spawner.gd
 res://Scenes/ball.tscn
-res://Scenes/wall.tscn
-res://Scenes/ui.tscn
 res://Scripts/ball.gd
 res://Scripts/paddle.gd
+res://Scenes/main.tscn
+res://Scenes/paddle.tscn
+res://Scenes/wall.tscn
+res://Scenes/DeathZone.tscn
+res://Scenes/ui.tscn
+res://Scenes/brick.tscn
