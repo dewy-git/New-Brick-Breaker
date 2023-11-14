@@ -17,7 +17,7 @@ var brick_count = 0
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	spawn()
+	spawn_from_definition(LevelDefinitions.get_current_level())
 
 func spawn():
 	var test_brick = brick_scene.instantiate() as Brick
@@ -39,7 +39,36 @@ func spawn():
 			brick.set_position(Vector2(x, y))
 			brick.brick_destroyed.connect(on_brick_destroyed)
 
+func spawn_from_definition(level_defintion):
+	var test_brick = brick_scene.instantiate() as Brick
+	add_child(test_brick)
+	var brick_size = test_brick.get_size() 
+	test_brick.queue_free()
+	
+	var rows = level_defintion.size()
+	var columns = level_defintion[0].size()
+	
+	
+	var row_width = brick_size.x * columns + margin.x * (columns -1)
+	var spawn_position_x = (-row_width + brick_size.x + margin.x) / 2
+	var spawn_position_y = spawn_start.position.y
+	
+	for i in rows:
+		for j in columns:
+			if level_defintion[i][j] == 0:
+				continue
+				
+			var brick = brick_scene.instantiate() as Brick
+			add_child(brick)
+			brick.set_level(level_defintion[i][j])
+			var x = spawn_position_x + j * (margin.x + brick.get_size().x)
+			var y = spawn_position_y + i * (margin.y + brick.get_size().y)
+			brick.set_position(Vector2(x, y))
+			brick.brick_destroyed.connect(on_brick_destroyed)
+			brick_count += 1
+
 func on_brick_destroyed():
 	brick_count -= 1
 	if brick_count == 0:
-		ball.stop_ball()
+		ball.reset_ball()
+		ui.on_level_won()

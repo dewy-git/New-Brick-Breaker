@@ -1,2 +1,8 @@
+Button
+Label
+VBoxContainer
+HBoxContainer
+Panel
+CenterContainer
 Marker2D
 Node
