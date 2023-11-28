@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cnsr2mnfnd817"
+path="res://.godot/imported/horn fail game over.mp3-d31a8535e257a5158067a9100d25abe2.sample"
+
+[deps]
+
+source_file="res://Assets/Audio/horn fail game over.mp3"
+dest_files=["res://.godot/imported/horn fail game over.mp3-d31a8535e257a5158067a9100d25abe2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

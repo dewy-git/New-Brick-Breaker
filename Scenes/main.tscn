@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://culj7fefenad"]
+[gd_scene load_steps=10 format=3 uid="uid://culj7fefenad"]
 
 [ext_resource type="PackedScene" uid="uid://du5oyo8n07x45" path="res://Scenes/ui.tscn" id="1_83x0h"]
 [ext_resource type="PackedScene" uid="uid://dgo41t4ifjtrk" path="res://Scenes/paddle.tscn" id="1_lfw1x"]
@@ -7,8 +7,27 @@
 [ext_resource type="PackedScene" uid="uid://blf47vvuwvsr3" path="res://Scenes/DeathZone.tscn" id="4_4wlyf"]
 [ext_resource type="Script" path="res://Scripts/brick_spawner.gd" id="6_hdg0i"]
 [ext_resource type="PackedScene" uid="uid://dp7fqxlnar4n5" path="res://Scenes/brick.tscn" id="7_ngckr"]
+[ext_resource type="AudioStream" uid="uid://dj2v8mg10sp8m" path="res://Assets/Audio/choco rain bg music.mp3" id="8_j05b5"]
+
+[sub_resource type="GDScript" id="GDScript_6qe4e"]
+script/source = "extends Node
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	$Music.play()
+
+func game_over():
+	$Music.stop()
+
+func on_level_won():
+	$LevelWon.play()
+	
+
+"
 
 [node name="main" type="Node"]
+script = SubResource("GDScript_6qe4e")
 
 [node name="UI" parent="." instance=ExtResource("1_83x0h")]
 
@@ -52,3 +71,8 @@ spawn_start = NodePath("../Marker2D")
 
 [node name="Marker2D" type="Marker2D" parent="."]
 position = Vector2(0, -232)
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("8_j05b5")
+
+[node name="Node" type="Node" parent="Music"]

@@ -5,5 +5,7 @@ res://Scenes/wall.tscn
 res://Scenes/DeathZone.tscn
 res://Scenes/ui.tscn
 res://Scenes/brick.tscn
-res://Scripts/ui.gd
 res://Scripts/paddle.gd
+res://Scripts/ui.gd
+res://Scripts/brick.gd
+res://Scripts/level_definitions.gd

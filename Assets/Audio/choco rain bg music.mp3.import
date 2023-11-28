@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dj2v8mg10sp8m"
+path="res://.godot/imported/choco rain bg music.mp3-e9e59e8ffa7d45fb91a968ce9f3df60f.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/choco rain bg music.mp3"
+dest_files=["res://.godot/imported/choco rain bg music.mp3-e9e59e8ffa7d45fb91a968ce9f3df60f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
