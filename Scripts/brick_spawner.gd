@@ -7,6 +7,8 @@ const ROWS = 6
 
 @onready var ball = $"../Ball" as Ball
 @onready var ui = $"../UI" as UI
+@onready var music = $"../MusicPack/Music"
+
 
 @export var brick_scene: PackedScene
 @export var margin: Vector2 = Vector2(8,8)
@@ -14,9 +16,9 @@ const ROWS = 6
 
 var brick_count = 0
 
-
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	music.play()
 	spawn_from_definition(LevelDefinitions.get_current_level())
 
 func spawn():

@@ -6,7 +6,7 @@ signal life_lost
 const VELOCITY_LIMIT = 40
 
 @export var ball_speed = 15
-@export var lifes = 3
+@export var lifes = 5
 @export var death_zone: DeathZone
 @export var ui: UI
 
@@ -15,6 +15,10 @@ var start_position: Vector2
 var last_collider_id 
 
 @onready var collision_shape_2d = $CollisionShape2D
+
+# audio vars
+@onready var ball_collide_sound = $"../MusicPack/BallCollideSound"
+@onready var ball_in_wall_collide_sound = $"../MusicPack/BallInWallCollideSound"
 
 func _ready():
 	ui.set_lifes(lifes)
@@ -30,10 +34,19 @@ func _physics_process(delta):
 	if collider is Brick:
 		collider.decrease_level()
 		
-	if (collider is Brick or collider is Paddle):
+	if (collider is Paddle):
 		ball_collision(collider)
+		ball_in_wall_collide_sound.play()
+		
+	elif (collider is Brick):
+		ball_collision(collider)
+		ball_collide_sound.play()
+		
+	#if (collider is Brick or collider is Paddle):
+		#ball_collision(collider)
 	else:
 		velocity = velocity.bounce(collision.get_normal())
+		ball_in_wall_collide_sound.play()
 	
 
 func start_ball():
