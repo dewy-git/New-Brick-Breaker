@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://dm1ufrl7f52gf"]
+
+[ext_resource type="Texture2D" uid="uid://b7280418a726w" path="res://Assets/textures/star.png" id="1_blsir"]
+
+[sub_resource type="Gradient" id="Gradient_3225f"]
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_qv3oy"]
+gradient = SubResource("Gradient_3225f")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_sejxe"]
+emission_shape = 3
+emission_box_extents = Vector3(1000, 1000, 1)
+particle_flag_disable_z = true
+direction = Vector3(-1, 1, 2.08165e-12)
+spread = 0.0
+gravity = Vector3(2.08165e-12, 2.08165e-12, 2.08165e-12)
+initial_velocity_min = 100.0
+initial_velocity_max = 100.0
+orbit_velocity_min = 0.0
+orbit_velocity_max = 0.0
+scale_min = 0.01
+scale_max = 0.01
+color_ramp = SubResource("GradientTexture1D_qv3oy")
+
+[node name="snow" type="GPUParticles2D"]
+position = Vector2(569, 341)
+amount = 100
+process_material = SubResource("ParticleProcessMaterial_sejxe")
+texture = ExtResource("1_blsir")

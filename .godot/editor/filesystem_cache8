@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1701386840
+::res://::1701387441
 icon.svg::CompressedTexture2D::7287572805335311116::1698099369::1698099373::1::::<><>::
 ::res://Assets/::1701384465
 Ball.png::CompressedTexture2D::7113742415800555843::1698099576::1698099576::1::::<><>::
@@ -19,17 +19,18 @@ VT323-Regular.ttf::FontFile::4453843302194638347::1698099576::1698099576::1::::<
 choco rain bg music.mp3::AudioStreamMP3::7848034471992649482::1700082157::1700082157::1::::<><>::
 horn fail game over.mp3::AudioStreamWAV::5723536190173526752::1700083128::1700176005::1::::<><>::
 yay level passed.mp3::AudioStreamWAV::8657899369003340369::1700175878::1700175899::1::::<><>::
-::res://Assets/textures/::1701384489
+::res://Assets/textures/::1701387441
 heart.png::CompressedTexture2D::6326904163652882210::1701384489::1701384489::1::::<><>::
-::res://Scenes/::1701386823
-ball.tscn::PackedScene::2099996657004442988::1701386687::0::1::::<><>::res://Scripts/ball.gd<>uid://c8l7ke1ygg27h::::res://Assets/Ball.png
-brick.tscn::PackedScene::8278488177067276980::1701386687::0::1::::<><>::uid://d06ws4g0pu0q0::::res://Assets/Brick-Blue.png<>res://Scripts/brick.gd
+star.png::CompressedTexture2D::4690251749921395008::1701387425::1701387443::1::::<><>::
+::res://Scenes/::1701387411
+ball.tscn::PackedScene::2099996657004442988::1701386687::0::1::::<><>::res://Scripts/ball.gd<>uid://c8l7ke1ygg27h
+brick.tscn::PackedScene::8278488177067276980::1701386687::0::1::::<><>::uid://d06ws4g0pu0q0
 DeathZone.tscn::PackedScene::3170638927047140718::1701386687::0::1::::<><>::res://Scripts/DeathZone.gd
-heartparticles.tscn::PackedScene::8621149030291562146::1701386687::0::1::::<><>::uid://cwe2gmn3ibupm::::res://Assets/textures/heart.png
-main.tscn::PackedScene::182350890082657767::1701386819::0::1::::<><>::uid://du5oyo8n07x45::::res://Scenes/ui.tscn<>uid://dgo41t4ifjtrk::::res://Scenes/paddle.tscn<>uid://46ivxw71chxs::::res://Scenes/ball.tscn<>uid://04ucv52w4xhq::::res://Scenes/wall.tscn<>uid://blf47vvuwvsr3::::res://Scenes/DeathZone.tscn<>uid://du3fchdk0ralu::::res://Scenes/heartparticles.tscn<>res://Scripts/brick_spawner.gd<>uid://dp7fqxlnar4n5::::res://Scenes/brick.tscn<>uid://cnsr2mnfnd817::::res://Assets/Audio/horn fail game over.mp3<>uid://cij86k1ucwhq::::res://Assets/Audio/253174__suntemple__retro-you-lose-sfx.wav<>uid://xo5e2h6pjm7t::::res://Assets/Audio/571119__elfstonepress__boing-sfx.mp3<>uid://btgmpbu2ledkf::::res://Assets/Audio/980__rhumphries__rbh-glass_break-04.wav<>uid://dvl7lql481rcj::::res://Assets/Audio/yay level passed.mp3
-paddle.tscn::PackedScene::7611104668009611248::1701386687::0::1::::<><>::uid://ckbmlemetbql1::::res://Assets/Paddle.png<>res://Scripts/paddle.gd
-snow.tscn::PackedScene::3986220431439674520::1701386823::0::1::::<><>::
-ui.tscn::PackedScene::8625863940344994116::1701386687::0::1::::<><>::uid://b4pqfbvte11k6::::res://Assets/VT323-Regular.ttf<>res://Scripts/ui.gd<>uid://cnsr2mnfnd817::::res://Assets/Audio/horn fail game over.mp3<>uid://dvl7lql481rcj::::res://Assets/Audio/yay level passed.mp3
+heartparticles.tscn::PackedScene::8621149030291562146::1701386925::0::1::::<><>::uid://cwe2gmn3ibupm::::res://Assets/textures/heart.png
+main.tscn::PackedScene::182350890082657767::1701386941::0::1::::<><>::uid://du5oyo8n07x45::::res://Scenes/ui.tscn<>uid://dgo41t4ifjtrk::::res://Scenes/paddle.tscn<>uid://46ivxw71chxs::::res://Scenes/ball.tscn<>uid://04ucv52w4xhq::::res://Scenes/wall.tscn<>uid://blf47vvuwvsr3::::res://Scenes/DeathZone.tscn<>uid://du3fchdk0ralu::::res://Scenes/heartparticles.tscn<>res://Scripts/brick_spawner.gd<>uid://dp7fqxlnar4n5::::res://Scenes/brick.tscn<>uid://cnsr2mnfnd817::::res://Assets/Audio/horn fail game over.mp3<>uid://cij86k1ucwhq::::res://Assets/Audio/253174__suntemple__retro-you-lose-sfx.wav<>uid://xo5e2h6pjm7t::::res://Assets/Audio/571119__elfstonepress__boing-sfx.mp3<>uid://btgmpbu2ledkf::::res://Assets/Audio/980__rhumphries__rbh-glass_break-04.wav<>uid://dvl7lql481rcj::::res://Assets/Audio/yay level passed.mp3
+paddle.tscn::PackedScene::7611104668009611248::1701386687::0::1::::<><>::uid://ckbmlemetbql1
+snow.tscn::PackedScene::8056426176517726525::1701387411::0::1::::<><>::
+ui.tscn::PackedScene::8625863940344994116::1701386687::0::1::::<><>::uid://b4pqfbvte11k6
 wall.tscn::PackedScene::1815807107853490178::1701386687::0::1::::<><>::
 ::res://Scripts/::1701293110
 ball.gd::GDScript::-1::1701292847::0::1::::Ball<>CharacterBody2D<>::
