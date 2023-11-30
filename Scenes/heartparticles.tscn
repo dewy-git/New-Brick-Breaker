@@ -1,0 +1,33 @@
+[gd_scene load_steps=6 format=3 uid="uid://du3fchdk0ralu"]
+
+[ext_resource type="Texture2D" uid="uid://cwe2gmn3ibupm" path="res://Assets/textures/heart.png" id="1_apbb7"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_24iyw"]
+
+[sub_resource type="Gradient" id="Gradient_h6xu6"]
+offsets = PackedFloat32Array(0.00212766, 1)
+colors = PackedColorArray(0.996078, 0.945098, 0.980392, 1, 0.569818, 0.000299564, 0.588416, 0)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_8qe4g"]
+gradient = SubResource("Gradient_h6xu6")
+width = 5
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_v4wpt"]
+particle_flag_disable_z = true
+spread = 20.0
+gravity = Vector3(2.08165e-12, 2.08165e-12, 2.08165e-12)
+initial_velocity_min = 250.0
+initial_velocity_max = 250.0
+orbit_velocity_min = 0.0
+orbit_velocity_max = 0.0
+angle_min = 3.9968e-14
+angle_max = 3.9968e-14
+scale_min = 0.02
+scale_max = 0.02
+color_ramp = SubResource("GradientTexture1D_8qe4g")
+
+[node name="heartparticles" type="GPUParticles2D"]
+material = SubResource("CanvasItemMaterial_24iyw")
+amount = 10
+process_material = SubResource("ParticleProcessMaterial_v4wpt")
+texture = ExtResource("1_apbb7")

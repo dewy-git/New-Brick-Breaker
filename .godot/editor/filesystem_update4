@@ -5,9 +5,6 @@ res://Scenes/wall.tscn
 res://Scenes/DeathZone.tscn
 res://Scenes/ui.tscn
 res://Scenes/brick.tscn
-res://Scripts/DeathZone.gd
-res://Scripts/ui.gd
-res://Scripts/paddle.gd
-res://Scripts/ball.gd
-res://Scripts/brick_spawner.gd
 res://heartparticles.tscn
+res://Scenes/heartparticles.tscn
+res://Scenes/snow.tscn
