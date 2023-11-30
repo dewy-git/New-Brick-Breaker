@@ -1,7 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1701385326
+::res://::1701386840
 icon.svg::CompressedTexture2D::7287572805335311116::1698099369::1698099373::1::::<><>::
-snow.tscn::PackedScene::8098880713383560691::1701385662::0::1::::<><>::
 ::res://Assets/::1701384465
 Ball.png::CompressedTexture2D::7113742415800555843::1698099576::1698099576::1::::<><>::
 Brick-Blue.png::CompressedTexture2D::8979348304139843021::1698099576::1698099576::1::::<><>::
@@ -13,9 +12,8 @@ Brick-Yellow.png::CompressedTexture2D::5772095262280393697::1698099576::16980995
 icon.svg::CompressedTexture2D::7753658774376271310::1698099576::1698099576::1::::<><>::
 Paddle.png::CompressedTexture2D::5477542658004981000::1698099576::1698099576::1::::<><>::
 VT323-Regular.ttf::FontFile::4453843302194638347::1698099576::1698099576::1::::<><>::
-::res://Assets/Audio/::1701292456
+::res://Assets/Audio/::1701386748
 980__rhumphries__rbh-glass_break-04.wav::AudioStreamWAV::3733150454822901653::1701292442::1701292456::1::::<><>::
-221528__unfa__glass-break.wav::AudioStreamWAV::5581632187354444695::1701292266::1701292265::1::::<><>::
 253174__suntemple__retro-you-lose-sfx.wav::AudioStreamWAV::157499738322353382::1701291197::1701291195::1::::<><>::
 571119__elfstonepress__boing-sfx.mp3::AudioStreamMP3::1645074775563191899::1701290403::1701290407::1::::<><>::
 choco rain bg music.mp3::AudioStreamMP3::7848034471992649482::1700082157::1700082157::1::::<><>::
@@ -23,15 +21,16 @@ horn fail game over.mp3::AudioStreamWAV::5723536190173526752::1700083128::170017
 yay level passed.mp3::AudioStreamWAV::8657899369003340369::1700175878::1700175899::1::::<><>::
 ::res://Assets/textures/::1701384489
 heart.png::CompressedTexture2D::6326904163652882210::1701384489::1701384489::1::::<><>::
-::res://Scenes/::1701385408
-ball.tscn::PackedScene::2099996657004442988::1701385408::0::1::::<><>::res://Scripts/ball.gd<>uid://c8l7ke1ygg27h::::res://Assets/Ball.png
-brick.tscn::PackedScene::8278488177067276980::1701385408::0::1::::<><>::uid://d06ws4g0pu0q0::::res://Assets/Brick-Blue.png<>res://Scripts/brick.gd
-DeathZone.tscn::PackedScene::3170638927047140718::1701385408::0::1::::<><>::res://Scripts/DeathZone.gd
-heartparticles.tscn::PackedScene::8621149030291562146::1701385408::0::1::::<><>::uid://cwe2gmn3ibupm::::res://Assets/textures/heart.png
-main.tscn::PackedScene::182350890082657767::1701385408::0::1::::<><>::uid://du5oyo8n07x45::::res://Scenes/ui.tscn<>uid://dgo41t4ifjtrk::::res://Scenes/paddle.tscn<>uid://46ivxw71chxs::::res://Scenes/ball.tscn<>uid://04ucv52w4xhq::::res://Scenes/wall.tscn<>uid://blf47vvuwvsr3::::res://Scenes/DeathZone.tscn<>uid://du3fchdk0ralu::::res://Scenes/heartparticles.tscn<>res://Scripts/brick_spawner.gd<>uid://dp7fqxlnar4n5::::res://Scenes/brick.tscn<>uid://cnsr2mnfnd817::::res://Assets/Audio/horn fail game over.mp3<>uid://cij86k1ucwhq::::res://Assets/Audio/253174__suntemple__retro-you-lose-sfx.wav<>uid://xo5e2h6pjm7t::::res://Assets/Audio/571119__elfstonepress__boing-sfx.mp3<>uid://btgmpbu2ledkf::::res://Assets/Audio/980__rhumphries__rbh-glass_break-04.wav<>uid://dvl7lql481rcj::::res://Assets/Audio/yay level passed.mp3
-paddle.tscn::PackedScene::7611104668009611248::1701385408::0::1::::<><>::uid://ckbmlemetbql1::::res://Assets/Paddle.png<>res://Scripts/paddle.gd
-ui.tscn::PackedScene::8625863940344994116::1701385408::0::1::::<><>::uid://b4pqfbvte11k6::::res://Assets/VT323-Regular.ttf<>res://Scripts/ui.gd<>uid://cnsr2mnfnd817::::res://Assets/Audio/horn fail game over.mp3<>uid://dvl7lql481rcj::::res://Assets/Audio/yay level passed.mp3
-wall.tscn::PackedScene::1815807107853490178::1701385408::0::1::::<><>::
+::res://Scenes/::1701386823
+ball.tscn::PackedScene::2099996657004442988::1701386687::0::1::::<><>::res://Scripts/ball.gd<>uid://c8l7ke1ygg27h::::res://Assets/Ball.png
+brick.tscn::PackedScene::8278488177067276980::1701386687::0::1::::<><>::uid://d06ws4g0pu0q0::::res://Assets/Brick-Blue.png<>res://Scripts/brick.gd
+DeathZone.tscn::PackedScene::3170638927047140718::1701386687::0::1::::<><>::res://Scripts/DeathZone.gd
+heartparticles.tscn::PackedScene::8621149030291562146::1701386687::0::1::::<><>::uid://cwe2gmn3ibupm::::res://Assets/textures/heart.png
+main.tscn::PackedScene::182350890082657767::1701386819::0::1::::<><>::uid://du5oyo8n07x45::::res://Scenes/ui.tscn<>uid://dgo41t4ifjtrk::::res://Scenes/paddle.tscn<>uid://46ivxw71chxs::::res://Scenes/ball.tscn<>uid://04ucv52w4xhq::::res://Scenes/wall.tscn<>uid://blf47vvuwvsr3::::res://Scenes/DeathZone.tscn<>uid://du3fchdk0ralu::::res://Scenes/heartparticles.tscn<>res://Scripts/brick_spawner.gd<>uid://dp7fqxlnar4n5::::res://Scenes/brick.tscn<>uid://cnsr2mnfnd817::::res://Assets/Audio/horn fail game over.mp3<>uid://cij86k1ucwhq::::res://Assets/Audio/253174__suntemple__retro-you-lose-sfx.wav<>uid://xo5e2h6pjm7t::::res://Assets/Audio/571119__elfstonepress__boing-sfx.mp3<>uid://btgmpbu2ledkf::::res://Assets/Audio/980__rhumphries__rbh-glass_break-04.wav<>uid://dvl7lql481rcj::::res://Assets/Audio/yay level passed.mp3
+paddle.tscn::PackedScene::7611104668009611248::1701386687::0::1::::<><>::uid://ckbmlemetbql1::::res://Assets/Paddle.png<>res://Scripts/paddle.gd
+snow.tscn::PackedScene::3986220431439674520::1701386823::0::1::::<><>::
+ui.tscn::PackedScene::8625863940344994116::1701386687::0::1::::<><>::uid://b4pqfbvte11k6::::res://Assets/VT323-Regular.ttf<>res://Scripts/ui.gd<>uid://cnsr2mnfnd817::::res://Assets/Audio/horn fail game over.mp3<>uid://dvl7lql481rcj::::res://Assets/Audio/yay level passed.mp3
+wall.tscn::PackedScene::1815807107853490178::1701386687::0::1::::<><>::
 ::res://Scripts/::1701293110
 ball.gd::GDScript::-1::1701292847::0::1::::Ball<>CharacterBody2D<>::
 brick.gd::GDScript::-1::1701214700::0::1::::Brick<>RigidBody2D<>::
