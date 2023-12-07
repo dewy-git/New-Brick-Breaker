@@ -3,14 +3,14 @@ extends CharacterBody2D
 class_name Ball
 
 signal life_lost
-const VELOCITY_LIMIT = 40
+const VELOCITY_LIMIT = 25
 
 @export var ball_speed = 15
-@export var lifes = 5
+@export var lifes = 15
 @export var death_zone: DeathZone
 @export var ui: UI
 
-var speed_up_factor = 1.05
+var speed_up_factor = 1
 var start_position: Vector2
 var last_collider_id 
 

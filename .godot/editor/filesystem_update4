@@ -1,6 +1,6 @@
-res://Scenes/ball.tscn
-res://Scripts/level_definitions.gd
 res://Scenes/main.tscn
+res://Scripts/brick.gd
+res://Scenes/ball.tscn
 res://Scenes/paddle.tscn
 res://Scenes/wall.tscn
 res://Scenes/DeathZone.tscn
@@ -8,3 +8,5 @@ res://Scenes/ui.tscn
 res://Scenes/brick.tscn
 res://Scenes/heartparticles.tscn
 res://Scenes/snow.tscn
+res://Scripts/ball.gd
+res://Scripts/level_definitions.gd
